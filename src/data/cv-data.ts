@@ -3,7 +3,7 @@
 export const personalInfo = {
     name: "Augusto Espinel Porras",
     title: "Energy Expert | Systems Engineer",
-    tagline: "Creative and highly motivated, with an open, and collaborative mindset and fluency in various international contexts.",
+    tagline: "Connecting the dots between energy, technology, and sustainability.",
     contact: {
         phone: "+41 79 697 95 16",
         email: "augusto.espinel@gmail.com",

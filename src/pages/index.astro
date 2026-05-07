@@ -206,17 +206,22 @@ const pageKeywords = "Senior Architect, Systems Engineer, Energy Efficiency, Ele
                             <i class="fab fa-youtube mr-2"></i> View Full Channel
                         </a>
                     </div>
-                <div class="bg-slate-900 bg-opacity-50 p-4 rounded-xl overflow-hidden border border-slate-700 border-opacity-30">
-<div class="aspect-video relative rounded-lg overflow-hidden border border-slate-800 shadow-xl">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SWjpgFl0xL4?si=WlCUmDR422HhNZdz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-<div class="aspect-video relative rounded-lg overflow-hidden border border-slate-800 shadow-xl">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FXm4mPVUjt0?si=uzozMpnylMlT4WET" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-<div class="aspect-video relative rounded-lg overflow-hidden border border-slate-800 shadow-xl">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nOzbNlL3HHs?si=16lonOmpV5KVgGIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
+                <div class="flex flex-col items-center gap-10 w-full">
+                    {['SWjpgFl0xL4?si=WlCUmDR422HhNZdz', 'FXm4mPVUjt0?si=uzozMpnylMlT4WET', 'nOzbNlL3HHs?si=16lonOmpV5KVgGIM'].map((videoId) => (
+                        <div class="w-full max-w-3xl bg-slate-900 bg-opacity-50 p-4 rounded-xl border border-slate-700 border-opacity-30">
+                            <div class="aspect-video relative rounded-lg overflow-hidden border border-slate-800 shadow-xl">
+                                <iframe 
+                                    class="absolute top-0 left-0 w-full h-full" 
+                                    src={`https://www.youtube.com/embed/${videoId}`} 
+                                    title="YouTube video player" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    referrerpolicy="strict-origin-when-cross-origin" 
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                    ))}
                 </div>
 
             </div>

@@ -167,37 +167,37 @@ export const patents = [
 export const skills = {
     technical: [
         "Power Electronic Systems",
-        "TCO/LCC models",
-        "ESC/EMC Compatibility",
-        "Embedded Systems (V-Model)",
-        "Battery Management Systems (BMS)",
-        "RAMS"
+        "Eletro-thermal Analysis and Simulation",
+        "Energy Systems Modeling and Optimization",
+        "Systems Engineering and Safety Analysis",
+        "Embedded Systems",
+        "Battery Systems",
+        "Agentic AI for Engineering",
+        "3D Printing and Rapid Prototyping"
     ],
     programming: [
         "Python",
-        "MATLAB/Simulink",
-        "Embedded C",
-        "SQL",
+        "MATLAB/Simulink/Octave",
         "Visual Basic",
         "JavaScript",
         "IEC 61131-3",
-        "PHP",
-        "C++",
-        "Assembly"
+        "Embedded C/C++",
+        "SQL and Database Management"
     ],
     applications: [
-        "CoDeSys",
         "Cadence PSpice",
-        "PLECS",
-        "DOORS",
         "FreeCAD",
-        "AutoCAD",
-        "MS Office Suite"
+        "CoDeSys",
+        "Gimp/Inkscape/Photoshop",
+        "Linux/Windows/MacOS",
+        "MS Office Suite",
+        "PLECS",
+        "DOORS"
     ],
     languages: [
-        { name: "English", level: "Fluent" },
+        { name: "English", level: "C1" },
         { name: "Spanish", level: "Native" },
-        { name: "German", level: "B2" }
+        { name: "German", level: "B1" }
     ]
 };
 

@@ -17,7 +17,7 @@ export const personalInfo = {
 
 Demonstrated ability to sintetize and rationalize complex system-wide information and identify key design optimizations for energy efficency in electric powertrains.
 
-Ability to quickly dive into complex technical topics ranging from vehicle safety to electrical compatibility, by leveraging solid first principles foundations, knowledge from adjacent domains, fellow expert networks and LLM-assisted synthesis.
+Ability to quickly dive into complex technical topics ranging from safety to electrical compatibility, by leveraging solid first principles foundations, knowledge from adjacent domains, fellow expert networks and LLM-assisted synthesis.
 
 Adaptable and resilient, with a track record of successfully navigating ambiguity and rapidly changing environments such as competitive tenders and project commisioning phases.`
 };
@@ -58,12 +58,13 @@ export const experience = [
         location: "Zurich, Switzerland",
         period: "Jan 2018 – present (8 years 5 months)",
         responsibilities: [
-            "Conducted R&D and tender-level studies to define key design parameters and topologies for complete electric train powertrains; securing team participation in a multi-million Euro high-speed rail development program.",
-            "Executed traction system TCO studies instrumental in winning the 90-train S-Bahn Rheinland tender (€4B); led energy efficiency initiatives during project execution projected to save the customer >€10M.",
-            "Performed dimensioning and thermal analysis for complete traction systems and steady-state analysis for power converters using in-house and commercial simulation tools.",
-            "Served as an expert representative in the IEC 63593 international standard committee, focusing on energy consumption specification and validation for rolling stock.",
-            "Developed a proprietary simulation post-processing ecosystem to automate the synthesis and visualization of efficiency vs. performance trade-offs, significantly accelerating tender calculation processes.",
-            "Led the resolution of Electric Systems Compatibility (ESC) issues for locomotive homologation in the Netherlands, leveraging root cause analysis, real-time SiL simulation, and field testing."
+            "Secured internal development budget by performing R&D and rapid dimensioning studies to validate power converter topology feasibility for a strategic fleet portfolio.",
+            "Defined energy-efficient traction chain topologies and key design parameters for transformer, converter and motor via Total Cost of Ownership (TCO) studies, directly contributing to winning the €4B, 90-train S-Bahn Rheinland tender.",
+            "Projected >€10M in energy cost savings by proposing and spearheading additional efficiency initiatives during the project phase.",
+            "Accelerated tender calculations by developing a proprietary simulation post-processing ecosystem to automate complex efficiency vs. performance trade-offs.",
+            "Resolved Electric Systems Compatibility (ESC) between the traction system of 6MW locomotives and the catenary supply system utilizing Software-in-the-Loop (SiL) simulation and rigorous field testing.",
+            "Performed multi-physics dimensioning of power converters using in-house and commercial simulation tools, evaluating critical electrical, thermal, and lifetime performance aspects.",
+            "Served as the expert representative in the IEC 63593 international standard committee for energy consumption validation."
         ]
     },
     {
@@ -72,10 +73,10 @@ export const experience = [
         location: "Zurich, Switzerland",
         period: "Jan 2012 – Dec 2017 (6 years)",
         responsibilities: [
-            "Dimensioned and specified components for the auxiliary supply system of locomotives, including transformers and switchgear equipment.",
-            "Designed locomotive control functions from requirements management to validation, including energy-efficient pre-heating of diesel engines and failure detection systems for traction supply and onboard equipment.",
-            "Represented the company in technical audits for safety and ESC/EMC compatibility certification across Europe, coordinating test scopes to demonstrate compliance while minimizing time and cost.",
-            "Secured the continuity of legacy locomotive platforms by synthesizing and improving critical safety-relevant functions through code reviews, targeted testing, and expert interviews."
+            "Dimensioned and specified components for locomotive auxiliary supply systems, including transformers and switchgear.",
+            "Designed control functions for energy-efficient diesel engine pre-heating and failure detection systems for traction supply.",
+            "Represented the company in technical audits for safety and ESC/EMC compatibility certification across Europe.",
+            "Secured continuity of legacy platforms by synthesizing and improving safety-relevant functions through code reviews and expert interviews."
         ]
     },
     {
@@ -94,7 +95,8 @@ export const experience = [
         location: "Munich, Germany",
         period: "Aug 2010 – Sept 2011 (1 year 2 months)",
         responsibilities: [
-            "Investigated energy management strategies to increase EV efficiency and minimize energy storage lifecycle costs. Research work led to co-authorship of U.S. Patent No. 2013/0138,279."
+            "Investigated energy management strategies to increase EV efficiency and minimize energy storage lifecycle costs.",
+            "Research work led to co-authorship of U.S. Patent No. 2013/0138,279."
         ]
     },
     {
@@ -113,7 +115,8 @@ export const experience = [
         location: "Arauca, Colombia",
         period: "July 2005 – Dec 2005 (6 months)",
         responsibilities: [
-            "Developed software bridge for SCADA communications and solved in-field hardware control problems."
+            "Developed a software bridge to connect legacy field RTUs (Remote Terminal Units) at distributed wellheads with an OPC-compatible SCADA system.",
+            "Troubleshot and resolved complex in-field hardware control and communication issues to ensure system stability."
         ]
     }
 ];
@@ -122,13 +125,15 @@ export const honors = [
     {
         title: "Excellence Scholarship and Opportunity Award",
         organization: "ETH Zurich",
-        year: 2010
+        year: 2010,
+        link: "https://ethz-foundation.ch/en/excellence-scholars/"
     },
     {
         title: "Energy Now! 4.0 Jury Award winner",
         organization: "ETH Zurich",
         year: 2025,
-        project: "ReVAmp Project"
+        project: "ReVAmp Project",
+        link: "https://esc.ethz.ch/news/archive/2026/01/energy-now-40-taking-sustainable-solutions-from-the-classroom-to-industry.html"
     }
 ];
 
@@ -136,14 +141,26 @@ export const projects = [
     {
         name: "Energy Now! 4.0 'ReVAmp' Project",
         year: 2025,
-        description: "Co-led Team to develop an evaluation procedure for second-life battery cells in partnership with the company SolarTaxi in Ghana.",
-        tags: ["Battery Recycling", "Sustainability", "Project Leadership"]
+        description: "Co-led Team to develop an evaluation procedure for second-life battery cells in partnership with the company SolarTaxi in Ghana, wining the 2025 Energy Now! 4.0 competition organized by ETH Zurich.",
+        link: "https://esc.ethz.ch/news/archive/2026/01/energy-now-40-taking-sustainable-solutions-from-the-classroom-to-industry.html"
+    },
+    {
+        name: "LLM-Powered Circuit Simulation Environment",
+        year: 2026,
+        description: "A Streamlit interface integrating Large Language Models with PySpice/Ngspice for interactive electronic circuit design. Engineered using an autonomous multi-agent framework on OpenClaw to translate natural language into validated simulation netlists.",
+        link: "https://github.com/augusto-espinel/llm-pspice"
+    },
+    {
+        name: "Triantica",
+        year: 2025,
+        description: "A grid-based strategy game built with Phaser 3 and JavaScript. Conceptualized during high school and realized in 2025 by leveraging generative AI workflows to streamline development around busy professional commitments.",
+        link: "https://github.com/augusto-espinel/llm-pspice"
     },
     {
         name: "Solar-Powered Battery Cycler",
         year: 2020,
         description: "DIY project using a cycler circuit controlled by a Raspberry Pi to assess decommissioned cellphone batteries for second-life use.",
-        tags: ["Embedded Systems", "Energy Storage", "DIY"]
+        link: "#"
     }
 ];
 

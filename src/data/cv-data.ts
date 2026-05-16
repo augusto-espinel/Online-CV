@@ -154,7 +154,7 @@ export const projects = [
         name: "Triantica",
         year: 2025,
         description: "A grid-based strategy game built with Phaser 3 and JavaScript. Conceptualized during high school and realized in 2025 by leveraging generative AI workflows to streamline development around busy professional commitments.",
-        link: "https://github.com/augusto-espinel/llm-pspice"
+        link: "https://github.com/augusto-espinel/Triantica"
     },
     {
         name: "Solar-Powered Battery Cycler",
